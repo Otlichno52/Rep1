@@ -23,7 +23,4 @@ def strcounter(s):#0(N)
     syns_counter ={}
     for syn in s:
         syns_counter[syn] = syns_counter.get(syn, 0)+1
-    for syn, count in syns_counter.items():
-        print(syn, count)
-    
-strcounter('aassssdddddnnnncccckkkdddbbb')
+print('изменения_билиберда')
